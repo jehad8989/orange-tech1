@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange for Technical Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 2em;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1em;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+        .product-card h3 {
+            margin: 0.5em 0;
+        }
+        .product-card p {
+            margin: 0.5em 0;
+            color: #555;
+        }
+        .product-card a {
+            display: inline-block;
+            margin: 1em 0;
+            padding: 0.5em 1em;
+            background-color: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .product-card a:hover {
+            background-color: #e55d00;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+        }
+        footer a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Orange for Technical Solutions</h1>
+        <p>Your partner in innovative technology solutions.</p>
+    </header>
+    <nav>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="images/speaker.jpg" alt="Speaker">
+                <h3>Wireless Speaker</h3>
+                <p>Price: $3</p>
+                <a href="https://wa.me/201220765418">Order Now</a>
+            </div>
+            <div class="product-card">
+                <img src="images/smartwatch.jpg" alt="Smart Watch">
+                <h3>Smart Watch</h3>
+                <p>Price: $15</p>
+                <a href="https://wa.me/201220765418">Order Now</a>
+            </div>
+            <div class="product-card">
+                <img src="images/flashdrive.jpg" alt="Flash Drive">
+                <h3>Flash Drive 64GB</h3>
+                <p>Price: $9</p>
+                <a href="https://wa.me/201220765418">Order Now</a>
+            </div>
+            <div class="product-card">
+                <img src="images/router.jpg" alt="Router">
+                <h3>Wireless Router</h3>
+                <p>Price: $17</p>
+                <a href="https://wa.me/201220765418">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> Raqqa, Dawar Al-Dalla, Tal Abyad Street</p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/201220765418">+201220765418</a></p>
+    </section>
+    <footer>
+        <p>© 2024 Orange for Technical Solutions | <a href="https://wa.me/201220765418">Contact Us</a></p>
+    </footer>
+</body>
+</html>
